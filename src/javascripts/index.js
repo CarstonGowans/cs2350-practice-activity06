@@ -9,7 +9,10 @@ import "bootstrap";
 
 // alert("Hello World!")
 // This will create an obnoxious alert
+document.getElementById("Function").addEventListener("click", displayMessage);
 
-let name = "Carston Gowans";
-const university = "Weber State University"
-console.log("Hello " + name);
+function displayMessage() {
+    var Input = document.getElementById("NameField").value;
+    alert(Input);
+    }
+   
