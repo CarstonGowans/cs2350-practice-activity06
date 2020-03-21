@@ -5,3 +5,11 @@ require.context('../stylesheets/', true, /\.(css|scss)$/i)
 
 // JavaScript
 //TODO
+import "bootstrap";
+
+// alert("Hello World!")
+// This will create an obnoxious alert
+
+let name = "Carston Gowans";
+const university = "Weber State University"
+console.log("Hello " + name);

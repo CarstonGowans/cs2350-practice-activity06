@@ -1,7 +1,16 @@
-@import url('~normalize.css/normalize.css');
+/* @import url('~normalize.css/normalize.css'); */
+@import url("../../node_modules/bootstrap/dist/css/bootstrap.css");
 
 * {
   box-sizing: border-box;
+
+}
+
+.container {
+background-color: rgb(191, 231, 231);
+padding: 20px;
+border-color: white;
+border-radius: 20px;
 }
 
 /* TODO */
